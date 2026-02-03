@@ -2,3 +2,4 @@ llama-index-llms-gemini
 llama-index-embeddings-gemini
 python-dotenv
 discord.py
+llama_index.llms.google_genai
