@@ -1,5 +1,14 @@
+# ── Discord bot ──────────────────────────────────────
+discord.py
+python-dotenv
+
+# ── Gemini / llama-index (original bot) ──────────────
 llama-index-llms-gemini
 llama-index-embeddings-gemini
-python-dotenv
-discord.py
 llama_index.llms.google_genai
+
+# ── RAG Pipeline: PDF → ChromaDB → Qwen/Mistral ──────
+pypdf                          # PDF parsing
+sentence-transformers          # local multilingual embeddings
+chromadb                       # vector store
+requests                       # Ollama HTTP API
